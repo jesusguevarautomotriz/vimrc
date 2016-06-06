@@ -16,12 +16,14 @@ set textwidth=72
 :set ignorecase
 :set smartcase
 
-"This makes Vim break text to avoid lines getting longer than 78 characters.
-"But only for files that have been detected to be plain text.  There are
-"actually two parts here.  "autocmd FileType text" is an autocommand.  This
-"defines that when the file type is set to "text" the following command is
-"automatically executed.  "setlocal textwidth=78" sets the 'textwidth' optio"n to 78, but only locally in one file. 
-autocmd FileType text setlocal textwidth=78
+"This makes Vim break text to avoid lines getting longer than 78
+"characters.  "But only for files that have been detected to be plain
+"text.  There are "actually two parts here.  "autocmd FileType text" is
+"an autocommand.  This "defines that when the file type is set to "text"
+"the following command is "automatically executed.  "setlocal
+"textwidth=78" sets the 'textwidth' optio"n to 78, but only locally in
+""one file.  
+:autocmd FileType text setlocal textwidth=72
 
 "When enabled, the ruler is displayed on the right side of the status
 "line at the bottom of the window. By default, it displays the line
@@ -29,3 +31,8 @@ autocmd FileType text setlocal textwidth=78
 "position of the cursor in the file (as a percentage).
 :set ruler
 
+"Cursor tracking. Adding both the cursor line and column marking makes
+"the cursor look like a crosshair, thus making it impossible to miss.
+"Hacking VIM 7.2 Pagina 38.
+:set cursorline
+:set cursorcolumn
