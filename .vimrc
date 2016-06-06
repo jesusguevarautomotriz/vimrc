@@ -36,3 +36,15 @@ set textwidth=72
 "Hacking VIM 7.2 Pagina 38.
 :set cursorline
 :set cursorcolumn
+
+"Copiado del .vimrc de git bash
+"cursor position all the time
+" make the last line where the status is two lines deep so you can see status always
+set laststatus=2
+
+" make that backspace key work the way it should
+set backspace=indent,eol,start
+
+" show the current mode
+set showmode
+
