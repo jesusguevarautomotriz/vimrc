@@ -37,7 +37,9 @@ set textwidth=72
 :set cursorline
 :set cursorcolumn
 
-"Opciones copiadas del .vimrc de git bash
+:hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
+
+"Copiado del .vimrc de git bash
 "cursor position all the time
 " make the last line where the status is two lines deep so you can see status always
 set laststatus=2
