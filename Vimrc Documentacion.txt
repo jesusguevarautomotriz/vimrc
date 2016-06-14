@@ -1,0 +1,12 @@
+Repositorio vimrc
+
+Branchs:
+		Windows > gVim
+			> Cygwin
+master (Global): 
+		Linux > Lubuntu > LXTerminal
+				> gVim
+			
+		      > Xubuntu
+		      > Debian
+		      > Kali Linux
