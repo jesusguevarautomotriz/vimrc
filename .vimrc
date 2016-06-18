@@ -37,9 +37,13 @@ set textwidth=72
 :set cursorline
 :set cursorcolumn
 
-:hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
-
-"Copiado del .vimrc de git bash
+" Setting Vim cursorline colors? - Stack Overflow
+" http://stackoverflow.com/questions/29167604/setting-vim-cursorline-colors
+" Fecha de consulta: sábado, 18 de junio de 2016 14:37:43
+:hi CursorColumn ctermfg=black ctermbg=green guibg=green
+:hi CursorLine ctermfg=black ctermbg=green guibg=green
+"
+"Opciones copiadas del .vimrc de git bash
 "cursor position all the time
 " make the last line where the status is two lines deep so you can see status always
 set laststatus=2
