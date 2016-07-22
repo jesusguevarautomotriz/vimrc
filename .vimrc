@@ -54,3 +54,13 @@ set backspace=indent,eol,start
 " show the current mode
 set showmode
 
+" whitespace - Tab key == 4 spaces and auto-indent after curly braces in Vim - Stack Overflow
+" http://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim
+" Fecha de consulta: mié 13 jul 2016 23:52:31 VET
+
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
