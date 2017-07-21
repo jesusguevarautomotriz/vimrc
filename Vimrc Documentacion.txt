@@ -3,7 +3,9 @@ Repositorio vimrc
 Branchs:
 		Windows > gVim
 			> Cygwin
-master (Global): 
+            > git
+master (Global):
+    > basic
 		Linux > Lubuntu > LXTerminal
 				> gVim
 			
