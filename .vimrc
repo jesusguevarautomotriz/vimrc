@@ -24,7 +24,7 @@ call plug#end()
 set nocompatible             " Disable vi compatibility
 
 " Now we can turn our filetype functionality back on
-filetype plugin indent on    " Vundle required
+filetype plugin indent on
 
 "Turns on line numbering.
 :set number
